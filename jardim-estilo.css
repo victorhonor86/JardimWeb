@@ -17,7 +17,7 @@ body {
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
-	background-color: #fff; 
+	background-color: #615004f8;
 	margin: 0; 
 	padding: 0;
 	}
@@ -90,7 +90,7 @@ abbr {
 .summary p.p1{
 	clear: both;
 	top: 400px;
-	right: 1500px;
+	right: 1525px;
 	margin: 20px 20px 20px 10px; 
 	padding: 0px 20px 20px 20px;
 	width: 160px; 
@@ -107,9 +107,14 @@ abbr {
 	  0 0 0 20px hsl(263, 93%, 70%),
 	  0 0 0 25px hsl(263, 93%, 80%),
 	  0 0 0 30px hsl(263, 93%, 90%);
-	  
 	border-radius:20px;
   }
+
+  .summary p.p1 :hover{
+	background: #FFF;
+	color:#000;
+  }
+
   .summary p.p2{
 	clear: both;
 	top: 400px;
@@ -143,7 +148,7 @@ abbr {
 .preamble p.p1{
 	clear: both;
 	top: 400px;
-	right: 900px;
+	right: 895px;
 	margin: 20px 20px 20px 10px; 
 	padding: 0px 20px 20px 20px;
 	float: left;
@@ -164,7 +169,7 @@ abbr {
 	.preamble p.p2{
 		clear: both;
 		top: 400px;
-		right: 600px;
+		right: 590px;
 		margin: 20px 20px 20px 10px; 
 		padding: 0px 20px 20px 20px;
 		float: left;
@@ -173,7 +178,6 @@ abbr {
 		height: 200px;
 		background: #1A6566;
 		position: absolute;
-		margin: 20px;
 		box-shadow: 
 		  0	0 0 10px hsl(177, 91%, 45%),
 		  0 0 0 15px hsl(177, 87%, 60%),
@@ -187,7 +191,7 @@ abbr {
 .preamble p.p3{
 	clear: both;
 	top: 400px;
-	right: 300px;
+	right: 285px;
 	margin: 20px 20px 20px 10px; 
 	padding: 0px 20px 20px 20px;
 	float: left;
@@ -203,7 +207,6 @@ abbr {
 	  0 0 0 20px hsl(114, 13%, 70%),
 	  0 0 0 25px hsl(114, 13%, 80%),
 	  0 0 0 30px hsl(114, 13%, 90%);
-	  
 	border-radius:20px;
 			}
 
