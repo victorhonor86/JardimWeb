@@ -16,11 +16,15 @@ html {
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
-	color: #555753; 
-	background-color: #615004f8;
+	color: #555753;
+	background-image: url(bolt.png);
+	background-position: center center;
+	background-repeat: repeat;
+	background-color: #FFF;
 	margin: 0; 
 	padding: 0;
-	}
+}
+
 p { 
 	margin-top: 0; 
 	text-align: justify;
@@ -37,16 +41,16 @@ h3 {
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #B7A5DF;
+	color: #000;
 	}
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #D4CDDC;
+	color: #000;
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
-	color: #9685BA;
+	color: #F00;
 	}
 abbr {
 	border-bottom: none;
@@ -110,11 +114,6 @@ abbr {
 	border-radius:20px;
   }
 
-  .summary p.p1 :hover{
-	background: #FFF;
-	color:#000;
-  }
-
   .summary p.p2{
 	clear: both;
 	top: 400px;
@@ -123,10 +122,15 @@ abbr {
 	margin: 20px 20px 20px 10px; 
 	width: 160px; 
 	float: left;
-	color:rgba(199, 202, 39, 0.815);
 	width: 200px;
 	height: 200px;
-	background: #323050;
+	color: #a09255;
+	font-size:20px;
+	font-weight: 700;
+	background-image: url(Sly2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	/*background: #323050;*/
 	position: absolute;
 	margin: 20px;
 	box-shadow: 
@@ -137,6 +141,11 @@ abbr {
 	  0 0 0 30px hsl(263, 13%, 90%);
 
 	border-radius:20px;
+  }
+
+  .summary p.p2:hover {
+	background: #323050;
+	display: inline;
   }
 
 
@@ -250,10 +259,15 @@ abbr {
 	margin: 20px 20px 20px 10px; 
 	padding: 0px 20px 20px 20px; 
 	float: left;
-	color:#fff;
+	color: #FFF;
+	font-size:12px;
+	font-weight: 700;
+	background-image: url(gri2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
 	width: 400px;
 	height: 200px;
-	background: #eca408f8;
+	/*background: #eca408f8;*/
 	position: absolute;
 	box-shadow: 
 	  0	0 0 10px hsl(32, 87%, 37%),
@@ -264,7 +278,10 @@ abbr {
 	border-radius:20px;
   }
 
-
+  .explanation p.p2:hover {
+	background: #eca408f8;
+	display: inline;
+  }
 
 .supporting {
 	right: -600px;	
@@ -364,7 +381,13 @@ abbr {
 	float: left;
 	width: 200px;
 	height: 200px;
-	background: #FFD817;
+	color: #a09255;
+	font-size:12px;
+	font-weight: 700;
+	background-image: url(huf2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	/*background: #FFD817;*/
 	position: absolute;
 	box-shadow: 
 	  0	0 0 10px hsl(69, 94%, 37%),
@@ -376,6 +399,12 @@ abbr {
 	border-radius:20px;
 
 }
+
+.benefits p.p1:hover {
+	background: #FFD817;
+	display: inline;
+  }
+
 
 .requirements p.p1{
 	clear: both;
@@ -480,7 +509,12 @@ abbr {
 	font-weight:bolder;  
   width: 200px;
   height: 200px;
-  background: #08d4caf8;
+  font-size:12px;
+  font-weight: 700;
+  background-image: url(rav2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*background: #08d4caf8;*/
   position: absolute;
   box-shadow: 
 	0 0 0 10px hsl(192, 90%, 47%),
@@ -492,7 +526,10 @@ abbr {
 	border-radius:20px;
   }
 
-
+  .requirements p.p4:hover {
+	background: #08d4caf8;
+	display: inline;
+  }
 
 
 
@@ -518,6 +555,9 @@ abbr {
 	font-family: 'Harry Potter', sans-serif;
 	font-size: 14px;
 	color: #988F5E;
+	background-image: url(wand2.png);
+	background-repeat: no-repeat;
+	background-position: center;
 	padding: 20px; 
 	margin-top: 150px;
 	margin-bottom: 250px;  
@@ -592,7 +632,7 @@ abbr {
 		position: absolute;
 		padding: 20px 20px 20px 20px; 
 		border-color: #B7A5DF;
-		background: #707708f8;
+		background: #615004f8;
 		box-shadow: 
 		  0	0 0 8px hsla(271, 59%, 48%, 0.815);
 		border-radius:20px; 
